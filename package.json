@@ -1,0 +1,11 @@
+{
+  "name": "another-chrome-weather-extension",
+  "version": "1.0.0",
+  "description": "a minimalistic new chrome tab that displays weather data from the national weather service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raymond wang",
+  "license": "MIT"
+}

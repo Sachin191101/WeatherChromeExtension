@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a new tab</title>
+    <link href="style.min.css" rel="stylesheet">
+    <script src="new-tab.js"></script>
+</head>
+
+<body>
+    <section id="app">
+        <div id="google">
+            <form id="search" action="http://www.google.com/search" method="get">
+                <input type="text" name="q" class="standard" autocomplete="off" placeholder="google search" autofocus />
+                <input type="submit" value="search" />
+            </form>
+        </div>
+        <div id="weather">
+            <span class="weather-top">
+                <span class="weather-main">
+                    <span class="metadata">
+                        <p id="location"><span id="city"></span> <span id="state"></span></p>
+                        <span id="quick-weather">
+                            <span id="wind">
+                                <span id="wind-direction"></span> <span id="wind-speed"></span>
+                            </span>
+                            <span id="lows-highs">
+                                <span id="temp-high-value"></span> <span id="temp-unit"></span>
+                            </span>
+                        </span>
+                    </span>
+                    <div class="weather-data">
+                        <span id="temp-current-value"></span>
+                    </div>
+                </span>
+                <p id="weather-description"></p>
+            </span>
+            <span class="weather-bottom">
+                <div id="hourly"></div>
+                <p id="weather-provider">weather info provided by <a href="https://www.weather.gov/">national weather
+                        service</a></p>
+            </span>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+    "name": "another chrome weather extension",
+    "version": "1.0",
+    "description": "a minimalistic new chrome tab that displays weather data from the national weather service",
+    "manifest_version": 2,
+    "chrome_url_overrides": {
+        "newtab": "new-tab/new-tab.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
